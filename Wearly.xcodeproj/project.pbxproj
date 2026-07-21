@@ -1,0 +1,1078 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DA961C63E2BA7EAF2F6DF19 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530BA6729AC9D5529DCF6685 /* SettingsView.swift */; };
+		2D273A1191BD96D040F72846 /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E0A5A4C09725477FD5339B /* HapticsManager.swift */; };
+		2FDE653EF44DE7594F206CF5 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D385A07643406CC527BF72E2 /* LocationManager.swift */; };
+		38D3BCB1633A18E4BCB5FDC8 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82FB9CE144F1AB35DAF290A /* MainView.swift */; };
+		3E4C127E2F9447880004FFFB /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4C127D2F9447870004FFFB /* WidgetKit.framework */; };
+		3E4C12802F9447880004FFFB /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4C127F2F9447880004FFFB /* SwiftUI.framework */; };
+		3E4C12912F94478A0004FFFB /* WearlyWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 3E4C127C2F9447870004FFFB /* WearlyWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3ECE39EC2F95BEA0001C4CDC /* WearlyWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3ECE39E22F95BE9E001C4CDC /* WearlyWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3ECE39FB2F95BF19001C4CDC /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4C127D2F9447870004FFFB /* WidgetKit.framework */; };
+		3ECE39FC2F95BF19001C4CDC /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4C127F2F9447880004FFFB /* SwiftUI.framework */; };
+		3ECE3A092F95BF1A001C4CDC /* WearlyWatchWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 3ECE39FA2F95BF19001C4CDC /* WearlyWatchWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		481D5B4F47A6E48C02F96347 /* WeatherHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA05A929480DE222910678BD /* WeatherHeaderView.swift */; };
+		5AA1B5E05AA1B5E05AA1B5E0 /* PhoneWatchSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA1B5E15AA1B5E15AA1B5E1 /* PhoneWatchSender.swift */; };
+		5C5F0F2D450B0BCE34A8A2DA /* TemperatureRangeSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4401E7C94539F37CF72780 /* TemperatureRangeSection.swift */; };
+		6C7FF5E0E35C2175573711FC /* ClothingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191255102C17E589D2EC6EA5 /* ClothingItem.swift */; };
+		7459DB80031D77BD4D3CD25F /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AB20E2A7E6A9686BDC0FF0 /* NotificationManager.swift */; };
+		7EFF95400BBDFD27D6B72BB6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F72C90F87933897F1331A910 /* CoreLocation.framework */; };
+		838902B1567AE18B2262B48A /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EA653D25CCC61AC7CD57F4 /* SettingsViewModel.swift */; };
+		84A0BF67A4E3C19861806D93 /* ClothingToggleSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8B0E117EADCFEAE815992E /* ClothingToggleSection.swift */; };
+		89AE3728C3E33CCE4AEC9FED /* TemperatureRanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC24F2AD4FD5823C464D58F /* TemperatureRanges.swift */; };
+		923F92BFB511A498C808CA2B /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCC42C3D502DFD2C842CA82E /* UserNotifications.framework */; };
+		9564D65B952CCD15A4E63B6B /* MinimalSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F5149738BA528EED6BE532 /* MinimalSlider.swift */; };
+		C2CB1DE1A41A0DBA46A4C8A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D00715AF5C8581772242E3C /* ContentView.swift */; };
+		C501C501C501C501C501C501 /* ClothingSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C502C502C502C502C502C502 /* ClothingSymbols.swift */; };
+		C8DB04C05BBEAD658217647C /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF88FCAA2875EAE1D36CCF50 /* WeatherService.swift */; };
+		CA01CA01CA01CA01CA01CA01 /* CategoryPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA02CA02CA02CA02CA02CA02 /* CategoryPalette.swift */; };
+		CC01CC01CC01CC01CC01CC01 /* CustomClothingIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC02CC02CC02CC02CC02CC02 /* CustomClothingIcons.swift */; };
+		CE01CE01CE01CE01CE01CE01 /* ClothingEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE02CE02CE02CE02CE02CE02 /* ClothingEditView.swift */; };
+		D05C4E3BAB0AB85C74354C9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0D695A0ADE1E36B3C5B6235 /* Assets.xcassets */; };
+		D1A117C697347A36B6A1B601 /* TemperatureGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D842ADDFFAD4062905990A /* TemperatureGradient.swift */; };
+		D501D501D501D501D501D501 /* DaySelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D502D502D502D502D502D502 /* DaySelectorView.swift */; };
+		DA01DA01DA01DA01DA01DA01 /* DailyWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA02DA02DA02DA02DA02DA02 /* DailyWeather.swift */; };
+		DC26145CD390E24216C0EFAA /* Outfit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0687608FBAD5087DB448A4F /* Outfit.swift */; };
+		E059B8A9BBBB57A789E747FA /* WearlyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A9AADFF8527C8414A8D054 /* WearlyApp.swift */; };
+		EFF7472D0B2E327B8836AAD1 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49837315304F14543FAB333F /* Weather.swift */; };
+		F16A91ACA484526DFED7A873 /* OutfitEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8AF8ED68285BC74BC7C44B /* OutfitEngine.swift */; };
+		FBC80F1ECBCF713489A61F24 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E34CA0EF173B4480EABBC0 /* WeatherViewModel.swift */; };
+		FEEBC9B7A1980E8CAE63C508 /* OutfitCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6270925B4625F01278AB98B /* OutfitCardView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E4C128F2F94478A0004FFFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5831266C57FD5AC77E914A13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E4C127B2F9447870004FFFB;
+			remoteInfo = WearlyWidgetExtension;
+		};
+		3ECE39EA2F95BEA0001C4CDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5831266C57FD5AC77E914A13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3ECE39E12F95BE9E001C4CDC;
+			remoteInfo = "WearlyWatch Watch App";
+		};
+		3ECE3A072F95BF1A001C4CDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5831266C57FD5AC77E914A13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3ECE39F92F95BF19001C4CDC;
+			remoteInfo = WearlyWatchWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3E4C12922F94478A0004FFFB /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3E4C12912F94478A0004FFFB /* WearlyWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ECE39ED2F95BEA0001C4CDC /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				3ECE39EC2F95BEA0001C4CDC /* WearlyWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ECE3A0E2F95BF1A001C4CDC /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3ECE3A092F95BF1A001C4CDC /* WearlyWatchWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		191255102C17E589D2EC6EA5 /* ClothingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothingItem.swift; sourceTree = "<group>"; };
+		32EA653D25CCC61AC7CD57F4 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		3E4C127C2F9447870004FFFB /* WearlyWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WearlyWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E4C127D2F9447870004FFFB /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		3E4C127F2F9447880004FFFB /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		3E4C12992F9448760004FFFB /* Wearly.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Wearly.entitlements; sourceTree = "<group>"; };
+		3E4C129A2F9448A00004FFFB /* WearlyWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WearlyWidgetExtension.entitlements; sourceTree = "<group>"; };
+		3ECE39E22F95BE9E001C4CDC /* WearlyWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WearlyWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ECE39FA2F95BF19001C4CDC /* WearlyWatchWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WearlyWatchWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ECE3A182F95BFD4001C4CDC /* WearlyWatchWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WearlyWatchWidgetExtension.entitlements; sourceTree = "<group>"; };
+		46A9AADFF8527C8414A8D054 /* WearlyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WearlyApp.swift; sourceTree = "<group>"; };
+		49837315304F14543FAB333F /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		4B8AF8ED68285BC74BC7C44B /* OutfitEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutfitEngine.swift; sourceTree = "<group>"; };
+		50AB20E2A7E6A9686BDC0FF0 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		530BA6729AC9D5529DCF6685 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		5AA1B5E15AA1B5E15AA1B5E1 /* PhoneWatchSender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneWatchSender.swift; sourceTree = "<group>"; };
+		5B914A49B847576E39A493D6 /* Wearly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wearly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D00715AF5C8581772242E3C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		90F5149738BA528EED6BE532 /* MinimalSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimalSlider.swift; sourceTree = "<group>"; };
+		9D8B0E117EADCFEAE815992E /* ClothingToggleSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothingToggleSection.swift; sourceTree = "<group>"; };
+		9E4401E7C94539F37CF72780 /* TemperatureRangeSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureRangeSection.swift; sourceTree = "<group>"; };
+		A0D695A0ADE1E36B3C5B6235 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0E0A5A4C09725477FD5339B /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
+		B0687608FBAD5087DB448A4F /* Outfit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Outfit.swift; sourceTree = "<group>"; };
+		B2D842ADDFFAD4062905990A /* TemperatureGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureGradient.swift; sourceTree = "<group>"; };
+		B6270925B4625F01278AB98B /* OutfitCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutfitCardView.swift; sourceTree = "<group>"; };
+		B82FB9CE144F1AB35DAF290A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		BA05A929480DE222910678BD /* WeatherHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherHeaderView.swift; sourceTree = "<group>"; };
+		BCC42C3D502DFD2C842CA82E /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		BF88FCAA2875EAE1D36CCF50 /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		C502C502C502C502C502C502 /* ClothingSymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothingSymbols.swift; sourceTree = "<group>"; };
+		CA02CA02CA02CA02CA02CA02 /* CategoryPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryPalette.swift; sourceTree = "<group>"; };
+		CC02CC02CC02CC02CC02CC02 /* CustomClothingIcons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomClothingIcons.swift; sourceTree = "<group>"; };
+		CE02CE02CE02CE02CE02CE02 /* ClothingEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothingEditView.swift; sourceTree = "<group>"; };
+		D385A07643406CC527BF72E2 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		D502D502D502D502D502D502 /* DaySelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaySelectorView.swift; sourceTree = "<group>"; };
+		DA02DA02DA02DA02DA02DA02 /* DailyWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWeather.swift; sourceTree = "<group>"; };
+		DAC24F2AD4FD5823C464D58F /* TemperatureRanges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureRanges.swift; sourceTree = "<group>"; };
+		E9E34CA0EF173B4480EABBC0 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
+		F72C90F87933897F1331A910 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		3E4C12952F94478A0004FFFB /* Exceptions for "WearlyWidget" folder in "WearlyWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 3E4C127B2F9447870004FFFB /* WearlyWidgetExtension */;
+		};
+		3ECE3A0A2F95BF1A001C4CDC /* Exceptions for "WearlyWatchWidget" folder in "WearlyWatchWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 3ECE39F92F95BF19001C4CDC /* WearlyWatchWidgetExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		3E4C12812F9447880004FFFB /* WearlyWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3E4C12952F94478A0004FFFB /* Exceptions for "WearlyWidget" folder in "WearlyWidgetExtension" target */,
+			);
+			path = WearlyWidget;
+			sourceTree = "<group>";
+		};
+		3ECE39E32F95BE9E001C4CDC /* WearlyWatch Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "WearlyWatch Watch App";
+			sourceTree = "<group>";
+		};
+		3ECE39FD2F95BF19001C4CDC /* WearlyWatchWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3ECE3A0A2F95BF1A001C4CDC /* Exceptions for "WearlyWatchWidget" folder in "WearlyWatchWidgetExtension" target */,
+			);
+			path = WearlyWatchWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E4C12792F9447870004FFFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E4C12802F9447880004FFFB /* SwiftUI.framework in Frameworks */,
+				3E4C127E2F9447880004FFFB /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ECE39DF2F95BE9E001C4CDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ECE39F72F95BF19001C4CDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ECE39FC2F95BF19001C4CDC /* SwiftUI.framework in Frameworks */,
+				3ECE39FB2F95BF19001C4CDC /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AE6FD23C4698F502D815C8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EFF95400BBDFD27D6B72BB6 /* CoreLocation.framework in Frameworks */,
+				923F92BFB511A498C808CA2B /* UserNotifications.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10A6CCD6E83683138038FD5E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE02CE02CE02CE02CE02CE02 /* ClothingEditView.swift */,
+				9D8B0E117EADCFEAE815992E /* ClothingToggleSection.swift */,
+				D502D502D502D502D502D502 /* DaySelectorView.swift */,
+				B82FB9CE144F1AB35DAF290A /* MainView.swift */,
+				B6270925B4625F01278AB98B /* OutfitCardView.swift */,
+				530BA6729AC9D5529DCF6685 /* SettingsView.swift */,
+				9E4401E7C94539F37CF72780 /* TemperatureRangeSection.swift */,
+				BA05A929480DE222910678BD /* WeatherHeaderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1901B8D34AD323E6D0226A66 = {
+			isa = PBXGroup;
+			children = (
+				3ECE3A182F95BFD4001C4CDC /* WearlyWatchWidgetExtension.entitlements */,
+				3E4C129A2F9448A00004FFFB /* WearlyWidgetExtension.entitlements */,
+				A0B3195909CD9CAF6F6AE26E /* Wearly */,
+				3E4C12812F9447880004FFFB /* WearlyWidget */,
+				3ECE39E32F95BE9E001C4CDC /* WearlyWatch Watch App */,
+				3ECE39FD2F95BF19001C4CDC /* WearlyWatchWidget */,
+				5DCCCE39142C299A8833CADE /* Frameworks */,
+				B9D9FFFB3FF371A4B7C6955F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D719F26B2326686AF5C0DC7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D385A07643406CC527BF72E2 /* LocationManager.swift */,
+				50AB20E2A7E6A9686BDC0FF0 /* NotificationManager.swift */,
+				5AA1B5E15AA1B5E15AA1B5E1 /* PhoneWatchSender.swift */,
+				BF88FCAA2875EAE1D36CCF50 /* WeatherService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		52E60E390BCD927B38F92721 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				32EA653D25CCC61AC7CD57F4 /* SettingsViewModel.swift */,
+				E9E34CA0EF173B4480EABBC0 /* WeatherViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5DCCCE39142C299A8833CADE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F72C90F87933897F1331A910 /* CoreLocation.framework */,
+				BCC42C3D502DFD2C842CA82E /* UserNotifications.framework */,
+				3E4C127D2F9447870004FFFB /* WidgetKit.framework */,
+				3E4C127F2F9447880004FFFB /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0B3195909CD9CAF6F6AE26E /* Wearly */ = {
+			isa = PBXGroup;
+			children = (
+				3E4C12992F9448760004FFFB /* Wearly.entitlements */,
+				A0D695A0ADE1E36B3C5B6235 /* Assets.xcassets */,
+				8D00715AF5C8581772242E3C /* ContentView.swift */,
+				46A9AADFF8527C8414A8D054 /* WearlyApp.swift */,
+				D6C5E97BECEFE1FF3FE44436 /* Models */,
+				1D719F26B2326686AF5C0DC7 /* Services */,
+				F345C601C0B95A153E145B68 /* Utilities */,
+				52E60E390BCD927B38F92721 /* ViewModels */,
+				10A6CCD6E83683138038FD5E /* Views */,
+			);
+			path = Wearly;
+			sourceTree = "<group>";
+		};
+		B9D9FFFB3FF371A4B7C6955F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B914A49B847576E39A493D6 /* Wearly.app */,
+				3E4C127C2F9447870004FFFB /* WearlyWidgetExtension.appex */,
+				3ECE39E22F95BE9E001C4CDC /* WearlyWatch Watch App.app */,
+				3ECE39FA2F95BF19001C4CDC /* WearlyWatchWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6C5E97BECEFE1FF3FE44436 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				191255102C17E589D2EC6EA5 /* ClothingItem.swift */,
+				DA02DA02DA02DA02DA02DA02 /* DailyWeather.swift */,
+				B0687608FBAD5087DB448A4F /* Outfit.swift */,
+				DAC24F2AD4FD5823C464D58F /* TemperatureRanges.swift */,
+				49837315304F14543FAB333F /* Weather.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F345C601C0B95A153E145B68 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CA02CA02CA02CA02CA02CA02 /* CategoryPalette.swift */,
+				C502C502C502C502C502C502 /* ClothingSymbols.swift */,
+				CC02CC02CC02CC02CC02CC02 /* CustomClothingIcons.swift */,
+				A0E0A5A4C09725477FD5339B /* HapticsManager.swift */,
+				90F5149738BA528EED6BE532 /* MinimalSlider.swift */,
+				4B8AF8ED68285BC74BC7C44B /* OutfitEngine.swift */,
+				B2D842ADDFFAD4062905990A /* TemperatureGradient.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E4EC08E567FC1F1A9D330E /* Wearly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7CAA7717E5C719C4BFC399B /* Build configuration list for PBXNativeTarget "Wearly" */;
+			buildPhases = (
+				E811297ABA2EC69687702507 /* Sources */,
+				34DCC262639265C16E6E67D9 /* Resources */,
+				6AE6FD23C4698F502D815C8D /* Frameworks */,
+				3E4C12922F94478A0004FFFB /* Embed Foundation Extensions */,
+				3ECE39ED2F95BEA0001C4CDC /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E4C12902F94478A0004FFFB /* PBXTargetDependency */,
+				3ECE39EB2F95BEA0001C4CDC /* PBXTargetDependency */,
+			);
+			name = Wearly;
+			packageProductDependencies = (
+			);
+			productName = Wearly;
+			productReference = 5B914A49B847576E39A493D6 /* Wearly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3E4C127B2F9447870004FFFB /* WearlyWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E4C12962F94478A0004FFFB /* Build configuration list for PBXNativeTarget "WearlyWidgetExtension" */;
+			buildPhases = (
+				3E4C12782F9447870004FFFB /* Sources */,
+				3E4C12792F9447870004FFFB /* Frameworks */,
+				3E4C127A2F9447870004FFFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				3E4C12812F9447880004FFFB /* WearlyWidget */,
+			);
+			name = WearlyWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = WearlyWidgetExtension;
+			productReference = 3E4C127C2F9447870004FFFB /* WearlyWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		3ECE39E12F95BE9E001C4CDC /* WearlyWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ECE39F02F95BEA0001C4CDC /* Build configuration list for PBXNativeTarget "WearlyWatch Watch App" */;
+			buildPhases = (
+				3ECE39DE2F95BE9E001C4CDC /* Sources */,
+				3ECE39DF2F95BE9E001C4CDC /* Frameworks */,
+				3ECE39E02F95BE9E001C4CDC /* Resources */,
+				3ECE3A0E2F95BF1A001C4CDC /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3ECE3A082F95BF1A001C4CDC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3ECE39E32F95BE9E001C4CDC /* WearlyWatch Watch App */,
+			);
+			name = "WearlyWatch Watch App";
+			packageProductDependencies = (
+			);
+			productName = "WearlyWatch Watch App";
+			productReference = 3ECE39E22F95BE9E001C4CDC /* WearlyWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3ECE39F92F95BF19001C4CDC /* WearlyWatchWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ECE3A0B2F95BF1A001C4CDC /* Build configuration list for PBXNativeTarget "WearlyWatchWidgetExtension" */;
+			buildPhases = (
+				3ECE39F62F95BF19001C4CDC /* Sources */,
+				3ECE39F72F95BF19001C4CDC /* Frameworks */,
+				3ECE39F82F95BF19001C4CDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				3ECE39FD2F95BF19001C4CDC /* WearlyWatchWidget */,
+			);
+			name = WearlyWatchWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = WearlyWatchWidgetExtension;
+			productReference = 3ECE39FA2F95BF19001C4CDC /* WearlyWatchWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5831266C57FD5AC77E914A13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 2640;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3E4C127B2F9447870004FFFB = {
+						CreatedOnToolsVersion = 26.4;
+					};
+					3ECE39E12F95BE9E001C4CDC = {
+						CreatedOnToolsVersion = 26.4.1;
+						LastSwiftMigration = 2640;
+					};
+					3ECE39F92F95BF19001C4CDC = {
+						CreatedOnToolsVersion = 26.4.1;
+					};
+				};
+			};
+			buildConfigurationList = C2FB79E4A97D0D50ABFE7DBE /* Build configuration list for PBXProject "Wearly" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 1901B8D34AD323E6D0226A66;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B9D9FFFB3FF371A4B7C6955F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00E4EC08E567FC1F1A9D330E /* Wearly */,
+				3E4C127B2F9447870004FFFB /* WearlyWidgetExtension */,
+				3ECE39E12F95BE9E001C4CDC /* WearlyWatch Watch App */,
+				3ECE39F92F95BF19001C4CDC /* WearlyWatchWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34DCC262639265C16E6E67D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05C4E3BAB0AB85C74354C9E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E4C127A2F9447870004FFFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ECE39E02F95BE9E001C4CDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ECE39F82F95BF19001C4CDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E4C12782F9447870004FFFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ECE39DE2F95BE9E001C4CDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ECE39F62F95BF19001C4CDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E811297ABA2EC69687702507 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA01CA01CA01CA01CA01CA01 /* CategoryPalette.swift in Sources */,
+				CE01CE01CE01CE01CE01CE01 /* ClothingEditView.swift in Sources */,
+				6C7FF5E0E35C2175573711FC /* ClothingItem.swift in Sources */,
+				C501C501C501C501C501C501 /* ClothingSymbols.swift in Sources */,
+				84A0BF67A4E3C19861806D93 /* ClothingToggleSection.swift in Sources */,
+				C2CB1DE1A41A0DBA46A4C8A2 /* ContentView.swift in Sources */,
+				CC01CC01CC01CC01CC01CC01 /* CustomClothingIcons.swift in Sources */,
+				DA01DA01DA01DA01DA01DA01 /* DailyWeather.swift in Sources */,
+				D501D501D501D501D501D501 /* DaySelectorView.swift in Sources */,
+				2D273A1191BD96D040F72846 /* HapticsManager.swift in Sources */,
+				2FDE653EF44DE7594F206CF5 /* LocationManager.swift in Sources */,
+				38D3BCB1633A18E4BCB5FDC8 /* MainView.swift in Sources */,
+				9564D65B952CCD15A4E63B6B /* MinimalSlider.swift in Sources */,
+				7459DB80031D77BD4D3CD25F /* NotificationManager.swift in Sources */,
+				5AA1B5E05AA1B5E05AA1B5E0 /* PhoneWatchSender.swift in Sources */,
+				DC26145CD390E24216C0EFAA /* Outfit.swift in Sources */,
+				FEEBC9B7A1980E8CAE63C508 /* OutfitCardView.swift in Sources */,
+				F16A91ACA484526DFED7A873 /* OutfitEngine.swift in Sources */,
+				1DA961C63E2BA7EAF2F6DF19 /* SettingsView.swift in Sources */,
+				838902B1567AE18B2262B48A /* SettingsViewModel.swift in Sources */,
+				D1A117C697347A36B6A1B601 /* TemperatureGradient.swift in Sources */,
+				5C5F0F2D450B0BCE34A8A2DA /* TemperatureRangeSection.swift in Sources */,
+				89AE3728C3E33CCE4AEC9FED /* TemperatureRanges.swift in Sources */,
+				E059B8A9BBBB57A789E747FA /* WearlyApp.swift in Sources */,
+				EFF7472D0B2E327B8836AAD1 /* Weather.swift in Sources */,
+				481D5B4F47A6E48C02F96347 /* WeatherHeaderView.swift in Sources */,
+				C8DB04C05BBEAD658217647C /* WeatherService.swift in Sources */,
+				FBC80F1ECBCF713489A61F24 /* WeatherViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E4C12902F94478A0004FFFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E4C127B2F9447870004FFFB /* WearlyWidgetExtension */;
+			targetProxy = 3E4C128F2F94478A0004FFFB /* PBXContainerItemProxy */;
+		};
+		3ECE39EB2F95BEA0001C4CDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3ECE39E12F95BE9E001C4CDC /* WearlyWatch Watch App */;
+			targetProxy = 3ECE39EA2F95BEA0001C4CDC /* PBXContainerItemProxy */;
+		};
+		3ECE3A082F95BF1A001C4CDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3ECE39F92F95BF19001C4CDC /* WearlyWatchWidgetExtension */;
+			targetProxy = 3ECE3A072F95BF1A001C4CDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		26E54BF1AB0B501BDF0E969B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Wearly/Wearly.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5RV7S2Q8XV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Wearly/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = sam.Wearly;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		3E4C12932F94478A0004FFFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = WearlyWidgetExtension.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5RV7S2Q8XV;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WearlyWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WearlyWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sam.Wearly.WearlyWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E4C12942F94478A0004FFFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = WearlyWidgetExtension.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5RV7S2Q8XV;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WearlyWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WearlyWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sam.Wearly.WearlyWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3ECE39EE2F95BEA0001C4CDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "WearlyWatch Watch App/WearlyWatch Watch App.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5RV7S2Q8XV;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WearlyWatch;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Wearly uses your location to fetch the local weather and recommend what to wear.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = sam.Wearly;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sam.Wearly.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "WearlyWatch Watch App/WearlyWatch Watch App-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.6;
+			};
+			name = Debug;
+		};
+		3ECE39EF2F95BEA0001C4CDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "WearlyWatch Watch App/WearlyWatch Watch App.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5RV7S2Q8XV;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WearlyWatch;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Wearly uses your location to fetch the local weather and recommend what to wear.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = sam.Wearly;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sam.Wearly.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "WearlyWatch Watch App/WearlyWatch Watch App-Bridging-Header.h";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.6;
+			};
+			name = Release;
+		};
+		3ECE3A0C2F95BF1A001C4CDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = WearlyWatchWidgetExtension.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5RV7S2Q8XV;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WearlyWatchWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WearlyWatchWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sam.Wearly.watchkitapp.WearlyWatchWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.6;
+			};
+			name = Debug;
+		};
+		3ECE3A0D2F95BF1A001C4CDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = WearlyWatchWidgetExtension.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5RV7S2Q8XV;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WearlyWatchWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WearlyWatchWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sam.Wearly.watchkitapp.WearlyWatchWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.6;
+			};
+			name = Release;
+		};
+		A81B58B8D37D8F0349011F69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		B3E908315D788695E3427863 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		DF0BF1498139223640D2BB6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Wearly/Wearly.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5RV7S2Q8XV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Wearly/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = sam.Wearly;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E4C12962F94478A0004FFFB /* Build configuration list for PBXNativeTarget "WearlyWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E4C12932F94478A0004FFFB /* Debug */,
+				3E4C12942F94478A0004FFFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3ECE39F02F95BEA0001C4CDC /* Build configuration list for PBXNativeTarget "WearlyWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ECE39EE2F95BEA0001C4CDC /* Debug */,
+				3ECE39EF2F95BEA0001C4CDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3ECE3A0B2F95BF1A001C4CDC /* Build configuration list for PBXNativeTarget "WearlyWatchWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ECE3A0C2F95BF1A001C4CDC /* Debug */,
+				3ECE3A0D2F95BF1A001C4CDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A7CAA7717E5C719C4BFC399B /* Build configuration list for PBXNativeTarget "Wearly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF0BF1498139223640D2BB6C /* Debug */,
+				26E54BF1AB0B501BDF0E969B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C2FB79E4A97D0D50ABFE7DBE /* Build configuration list for PBXProject "Wearly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A81B58B8D37D8F0349011F69 /* Debug */,
+				B3E908315D788695E3427863 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5831266C57FD5AC77E914A13 /* Project object */;
+}
